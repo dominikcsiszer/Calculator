@@ -1,5 +1,4 @@
-import { Text, View } from 'react-native';
-import { StyleSheet, TouchableOpacity } from 'react-native-web';
+import { Text, View, TouchableOpacity, StyleSheet } from 'react-native';
 
 export default function Button({ width = 0, height = 0, title, backgroundColor = '#333', onPress = () => {} }) {
   return (
